@@ -17,7 +17,6 @@ public class ClientWindow extends JFrame {
 
     private final JButton buttonSend = new JButton("Send");
     private final JTextArea messageTextArea = new JTextArea();
-    private final JPanel lowerPanel = new JPanel(new GridLayout(2,1));
 
     private final JButton buttonConnect = new JButton("login");
     private final JTextField fieldLogin = new JTextField("login");
